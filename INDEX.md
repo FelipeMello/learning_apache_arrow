@@ -4,6 +4,14 @@
 
 This repository provides a comprehensive learning path for Apache Arrow, from basics to advanced cross-language data sharing.
 
+## 🔧 Technology Stack
+
+- **Python**: 3.12 (May 2024) - Latest stable version
+- **Node.js**: 22 LTS (2024) - Long-Term Support version
+- **Java**: 25 (September 2025) - JDK 25 (compiled for Java 21 for Spring Boot compatibility)
+- **Apache Arrow**: 22.0.0 (Python), 16.0.0 (Node.js/Java)
+- **Spring Boot**: 3.4.0 (Java consumer)
+
 ## 📖 Main Documentation
 
 - **[README.md](README.md)** - Complete Apache Arrow guide
@@ -78,12 +86,12 @@ This repository provides a comprehensive learning path for Apache Arrow, from ba
 - [SPRING_BOOT_GUIDE.md](cross_language/SPRING_BOOT_GUIDE.md) - Spring Boot integration
 
 **Components**:
-| Component | Language | Description |
-|-----------|----------|-------------|
-| `python_producer.py` | Python | Creates shared Arrow data |
-| `python_consumer.py` | Python | Reads Arrow data |
-| `nodejs_consumer.js` | Node.js | Reads Arrow data |
-| `ArrowConsumerApplication.java` | Java 21+ | Spring Boot consumer |
+| Component | Language | Version | Description |
+|-----------|----------|---------|-------------|
+| `python_producer.py` | Python | 3.12 | Creates shared Arrow data |
+| `python_consumer.py` | Python | 3.12 | Reads Arrow data |
+| `nodejs_consumer.js` | Node.js | 22 LTS | Reads Arrow data |
+| `ArrowConsumerApplication.java` | Java | 25 (compiled for 21) | Spring Boot consumer |
 
 ## 🎯 Learning Path
 
@@ -115,8 +123,11 @@ This repository provides a comprehensive learning path for Apache Arrow, from ba
 ## 📊 Statistics
 
 - **Total Examples**: 18+ Python examples
-- **Cross-Language**: 4 implementations (Python, Node.js, Java Spring Boot)
-- **Documentation Files**: 7 README files
+- **Cross-Language**: 4 implementations
+  - Python 3.12 (producer & consumer)
+  - Node.js 22 LTS (consumer)
+  - Java 25 with Spring Boot 3.4.0 (consumer)
+- **Documentation Files**: 10 README files
 - **Financial Examples**: 3 comprehensive analyses
 - **Lines of Code**: ~3,000+ lines of example code
 
@@ -172,7 +183,12 @@ feather.write_feather(table, 'data.feather', compression='uncompressed')
 - All examples are self-contained and can be run independently
 - Financial examples generate synthetic data for demonstration
 - Cross-language examples require setup (see SETUP.md)
-- Spring Boot Java consumer requires Java 21+ (compiled for Java 21)
+- **Technology Versions**:
+  - **Python**: 3.12 (May 2024) - Latest stable version
+  - **Node.js**: 22 LTS (2024) - Long-Term Support version
+  - **Java**: 25 (September 2025) - JDK 25 runtime (compiled for Java 21 for Spring Boot compatibility)
+  - **Spring Boot**: 3.4.0
+  - **Apache Arrow**: 22.0.0 (Python), 16.0.0 (Node.js/Java)
 
 ## 🔗 External Resources
 
