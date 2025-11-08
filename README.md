@@ -1,5 +1,9 @@
 # Apache Arrow: Complete Guide
 
+> **⚠️ Disclaimer**: This repository is for **educational and learning purposes only**. See the [Disclaimer](#disclaimer) section for important information about liability and usage.
+> 
+> **📚 References**: All information about Apache Arrow is based on official Apache Software Foundation documentation. See the [References and Sources](#references-and-sources) section for complete attribution.
+
 ## What is Apache Arrow?
 
 Apache Arrow is an **in-memory columnar data format** designed for efficient analytical operations on modern hardware. It provides a standardized, language-agnostic columnar memory format for flat and hierarchical data, organized for efficient analytic operations on modern CPUs and GPUs.
@@ -367,6 +371,48 @@ learning_apache_arrow/
 
 Each directory contains its own README with detailed information.
 
+## References and Sources
+
+This documentation is based on the following official sources and references:
+
+### Primary Sources
+
+1. **Apache Arrow Official Documentation**
+   - URL: https://arrow.apache.org/
+   - Source: Apache Software Foundation
+   - Used for: Core concepts, architecture, and technical specifications
+
+2. **Apache Arrow Format Specification**
+   - URL: https://arrow.apache.org/docs/format/Columnar.html
+   - Source: Apache Software Foundation
+   - Used for: Columnar format details, memory layout, and data structure specifications
+
+3. **PyArrow Documentation**
+   - URL: https://arrow.apache.org/docs/python/
+   - Source: Apache Software Foundation
+   - Used for: Python API reference, usage examples, and PyArrow-specific features
+
+4. **Apache Arrow GitHub Repository**
+   - URL: https://github.com/apache/arrow
+   - Source: Apache Software Foundation
+   - Used for: Implementation details, examples, and community resources
+
+5. **Apache Arrow Blog and Articles**
+   - Source: Apache Software Foundation and community contributors
+   - Used for: Use cases, performance benchmarks, and best practices
+
+### Additional Resources
+
+- **Spring Boot Documentation**: https://spring.io/projects/spring-boot (for Java consumer examples)
+- **Pandas Documentation**: https://pandas.pydata.org/ (for DataFrame integration examples)
+- **NumPy Documentation**: https://numpy.org/ (for numerical operations)
+
+### Attribution
+
+All information about Apache Arrow, its features, architecture, and specifications is derived from the official Apache Arrow project documentation and resources. The Apache Arrow project is developed and maintained by the Apache Software Foundation and the open-source community.
+
+**Note**: While the concepts and information are based on official Apache Arrow sources, the examples, code implementations, and explanations in this repository are original educational content created for learning purposes.
+
 ## Resources
 
 - [Apache Arrow Official Documentation](https://arrow.apache.org/)
@@ -378,4 +424,19 @@ Each directory contains its own README with detailed information.
 ## License
 
 Apache Arrow is licensed under the Apache License 2.0.
+
+## Disclaimer
+
+**⚠️ IMPORTANT: Educational and Learning Purposes Only**
+
+This repository is created **solely for educational and learning purposes**. 
+
+- This is a **learning repository** intended to help understand Apache Arrow concepts, implementations, and use cases
+- All code, examples, and documentation are provided **"as-is"** for educational purposes only
+- **No warranties or guarantees** are provided regarding the accuracy, completeness, or suitability of the content
+- The author/maintainer **is not liable** for any damages, losses, or issues that may arise from using this repository
+- **Do not use this code in production** without proper review, testing, and validation
+- Always follow best practices, security guidelines, and proper software development standards when implementing solutions based on this learning material
+
+**Use at your own risk. This repository should be used for learning purposes only.**
 
