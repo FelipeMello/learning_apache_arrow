@@ -174,7 +174,7 @@ def load_and_analyze_feather():
     print("="*60)
     
     start = time.time()
-    loaded_table = feather.read_feather('trades_data.feather')
+    loaded_table = feather.read_table('trades_data.feather')
     load_time = time.time() - start
     
     print(f"✓ Loaded from Feather: {load_time:.4f} seconds")

@@ -192,7 +192,8 @@ def analyze_portfolio_with_arrow(df):
     
     # Use Arrow compute for statistics
     mean_return = pc.mean(arrow_table['unrealized_pnl_percent']).as_py()
-    median_return = pc.median(arrow_table['unrealized_pnl_percent']).as_py()
+    # Calculate median using pandas (pyarrow.compute doesn't have median)
+    median_return = df_arrow['unrealized_pnl_percent'].median()
     std_return = pc.stddev(arrow_table['unrealized_pnl_percent']).as_py()
     min_return = pc.min(arrow_table['unrealized_pnl_percent']).as_py()
     max_return = pc.max(arrow_table['unrealized_pnl_percent']).as_py()
