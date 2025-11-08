@@ -1,0 +1,19 @@
+{
+  "name": "apache-arrow-nodejs-consumer",
+  "version": "1.0.0",
+  "description": "Node.js consumer for Apache Arrow cross-language data sharing",
+  "main": "nodejs_consumer.js",
+  "scripts": {
+    "start": "node nodejs_consumer.js"
+  },
+  "dependencies": {
+    "apache-arrow": "^16.1.0"
+  },
+  "keywords": [
+    "apache-arrow",
+    "data-sharing",
+    "cross-language"
+  ],
+  "author": "",
+  "license": "Apache-2.0"
+}
