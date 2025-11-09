@@ -220,19 +220,19 @@ for batch in table.to_batches(max_chunksize=10000):
 
 2. **Start with Fundamentals**:
    ```bash
-   cd fundamentals
+   cd 1_fundamentals
    python3 arrow_array.py
    ```
 
 3. **Try Real-World Examples**:
    ```bash
-   cd arrow_in_action
+   cd 3_arrow_in_action
    python3 convert_large_data_frame_to_arrow.py
    ```
 
 4. **Explore Cross-Language Sharing**:
    ```bash
-   cd cross_language
+   cd 5_cross_language
    python3 python_producer.py
    python3 python_consumer.py
    node nodejs_consumer.js
@@ -242,31 +242,31 @@ for batch in table.to_batches(max_chunksize=10000):
 ## Learning Path
 
 ### 🟢 Beginner Level
-1. **Fundamentals** (`fundamentals/`) - Start here!
+1. **Fundamentals** (`1_fundamentals/`) - Start here!
    - Learn basic Arrow arrays and tables
    - Understand data conversions
    - Practice filtering and slicing
    - **Time**: 30-60 minutes
 
-2. **Basic Analytics** (`basic_analytics/`)
+2. **Basic Analytics** (`2_basic_analytics/`)
    - Simple aggregations and computations
    - Filtering operations
    - **Time**: 15-30 minutes
 
 ### 🟡 Intermediate Level
-3. **Arrow in Action** (`arrow_in_action/`)
+3. **Arrow in Action** (`3_arrow_in_action/`)
    - Working with large datasets
    - Feather file I/O
    - Performance comparisons
    - **Time**: 45-90 minutes
 
-4. **Financial Analysis** (`financial_analysis/`)
+4. **Financial Analysis** (`4_financial_analysis/`)
    - Real-world domain examples
    - Complex analytics on large datasets
    - **Time**: 60-120 minutes
 
 ### 🔴 Advanced Level
-5. **Cross-Language Sharing** (`cross_language/`)
+5. **Cross-Language Sharing** (`5_cross_language/`)
    - Multi-language data sharing
    - Zero-copy operations
    - Spring Boot integration
@@ -280,27 +280,27 @@ This repository contains examples organized by topic and difficulty:
 learning_apache_arrow/
 ├── README.md                    # This file - comprehensive guide
 │
-├── fundamentals/                # 🟢 Beginner - Basic Arrow operations
+├── 1_fundamentals/              # 🟢 Beginner - Basic Arrow operations
 │   ├── arrow_array.py          # Creating Arrow arrays
 │   ├── arrow_table.py          # Creating Arrow tables
 │   ├── arrow_tables_to_pandas_data_frame.py  # Conversions
 │   ├── arrow_filtering_metadata.py           # Filtering
 │   └── ... (9 examples total)
 │
-├── basic_analytics/            # 🟢 Beginner - Simple analytics
+├── 2_basic_analytics/           # 🟢 Beginner - Simple analytics
 │   └── basic_analytics.py      # Basic compute operations
 │
-├── arrow_in_action/            # 🟡 Intermediate - Real-world usage
+├── 3_arrow_in_action/           # 🟡 Intermediate - Real-world usage
 │   ├── convert_large_data_frame_to_arrow.py  # Large datasets
 │   ├── arrow_table_to_feather_file.py        # File I/O
 │   └── ... (5 examples total)
 │
-├── financial_analysis/         # 🟡 Intermediate - Domain examples
+├── 4_financial_analysis/        # 🟡 Intermediate - Domain examples
 │   ├── trades_analysis.py      # Trading data analysis
 │   ├── investment_banking.py   # Portfolio analysis
 │   └── risk_analysis.py        # Risk calculations
 │
-└── cross_language/              # 🔴 Advanced - Multi-language
+└── 5_cross_language/            # 🔴 Advanced - Multi-language
     ├── README.md               # Cross-language guide
     ├── SETUP.md                # Setup instructions
     ├── SPRING_BOOT_GUIDE.md    # Spring Boot guide
@@ -313,9 +313,9 @@ learning_apache_arrow/
 ### 📚 Documentation Files
 
 - **README.md** (this file) - Complete Apache Arrow guide
-- **cross_language/README.md** - Cross-language data sharing guide
-- **cross_language/SETUP.md** - Detailed setup instructions
-- **cross_language/SPRING_BOOT_GUIDE.md** - Spring Boot integration guide
+- **5_cross_language/README.md** - Cross-language data sharing guide
+- **5_cross_language/SETUP.md** - Detailed setup instructions
+- **5_cross_language/SPRING_BOOT_GUIDE.md** - Spring Boot integration guide
 
 ## Performance Tips
 
@@ -327,7 +327,7 @@ learning_apache_arrow/
 
 ## Examples Index
 
-### Fundamentals (`fundamentals/`)
+### Fundamentals (`1_fundamentals/`)
 | Example | Description | Difficulty | Time |
 |---------|-------------|------------|------|
 | `arrow_array.py` | Creating Arrow arrays | 🟢 Beginner | 5 min |
@@ -335,25 +335,25 @@ learning_apache_arrow/
 | `arrow_tables_to_pandas_data_frame.py` | Zero-copy conversions | 🟢 Beginner | 5 min |
 | `arrow_filtering_metadata.py` | Filtering and metadata | 🟡 Intermediate | 10 min |
 
-### Basic Analytics (`basic_analytics/`)
+### Basic Analytics (`2_basic_analytics/`)
 | Example | Description | Difficulty | Time |
 |---------|-------------|------------|------|
 | `basic_analytics.py` | Compute operations and aggregations | 🟡 Intermediate | 15 min |
 
-### Arrow in Action (`arrow_in_action/`)
+### Arrow in Action (`3_arrow_in_action/`)
 | Example | Description | Difficulty | Time |
 |---------|-------------|------------|------|
 | `convert_large_data_frame_to_arrow.py` | Large dataset handling | 🟡 Intermediate | 15 min |
 | `arrow_table_to_feather_file.py` | Feather file I/O | 🟡 Intermediate | 10 min |
 
-### Financial Analysis (`financial_analysis/`)
+### Financial Analysis (`4_financial_analysis/`)
 | Example | Description | Difficulty | Time | Dataset Size |
 |---------|-------------|------------|------|--------------|
 | `trades_analysis.py` | Trading data analysis | 🟡 Intermediate | 20-30 min | 1M trades |
 | `investment_banking.py` | Portfolio analysis | 🟡 Intermediate | 20-30 min | 500K holdings |
 | `risk_analysis.py` | Risk calculations | 🔴 Advanced | 30-45 min | 300K positions |
 
-### Cross-Language (`cross_language/`)
+### Cross-Language (`5_cross_language/`)
 | Component | Description | Difficulty | Time |
 |-----------|-------------|------------|------|
 | Python Producer | Create shared Arrow data | 🟡 Intermediate | 10 min |
@@ -363,11 +363,11 @@ learning_apache_arrow/
 
 ## Directory Navigation
 
-- **[Fundamentals](fundamentals/)** - Start here! Basic Arrow operations
-- **[Basic Analytics](basic_analytics/)** - Simple analytics examples
-- **[Arrow in Action](arrow_in_action/)** - Real-world usage patterns
-- **[Financial Analysis](financial_analysis/)** - Domain-specific examples
-- **[Cross-Language](cross_language/)** - Multi-language data sharing
+- **[1. Fundamentals](1_fundamentals/)** - Start here! Basic Arrow operations
+- **[2. Basic Analytics](2_basic_analytics/)** - Simple analytics examples
+- **[3. Arrow in Action](3_arrow_in_action/)** - Real-world usage patterns
+- **[4. Financial Analysis](4_financial_analysis/)** - Domain-specific examples
+- **[5. Cross-Language](5_cross_language/)** - Multi-language data sharing
 
 Each directory contains its own README with detailed information.
 

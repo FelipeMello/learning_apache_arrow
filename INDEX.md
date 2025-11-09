@@ -28,8 +28,8 @@ This repository provides a comprehensive learning path for Apache Arrow, from ba
 
 ### 🟢 Beginner Level
 
-#### [fundamentals/](fundamentals/)
-**README**: [fundamentals/README.md](fundamentals/README.md)  
+#### [1_fundamentals/](1_fundamentals/)
+**README**: [1_fundamentals/README.md](1_fundamentals/README.md)  
 **9 examples** covering basic Arrow operations
 
 | File | Description | Time |
@@ -43,8 +43,8 @@ This repository provides a comprehensive learning path for Apache Arrow, from ba
 | `arrow_slice.py` | Slicing operations | 5 min |
 | `arrow_filtering_metadata.py` | Filtering and metadata | 10 min |
 
-#### [basic_analytics/](basic_analytics/)
-**README**: [basic_analytics/README.md](basic_analytics/README.md)  
+#### [2_basic_analytics/](2_basic_analytics/)
+**README**: [2_basic_analytics/README.md](2_basic_analytics/README.md)  
 **1 example** for basic analytics
 
 | File | Description | Time |
@@ -53,8 +53,8 @@ This repository provides a comprehensive learning path for Apache Arrow, from ba
 
 ### 🟡 Intermediate Level
 
-#### [arrow_in_action/](arrow_in_action/)
-**README**: [arrow_in_action/README.md](arrow_in_action/README.md)  
+#### [3_arrow_in_action/](3_arrow_in_action/)
+**README**: [3_arrow_in_action/README.md](3_arrow_in_action/README.md)  
 **5 examples** for real-world usage
 
 | File | Description | Time |
@@ -65,8 +65,8 @@ This repository provides a comprehensive learning path for Apache Arrow, from ba
 | `arrow_load_tablefrom_feather_file.py` | Loading Feather files | 10 min |
 | `generate_large_data_frame.py` | Test data generation | 10 min |
 
-#### [financial_analysis/](financial_analysis/)
-**README**: [financial_analysis/README.md](financial_analysis/README.md)  
+#### [4_financial_analysis/](4_financial_analysis/)
+**README**: [4_financial_analysis/README.md](4_financial_analysis/README.md)  
 **3 examples** for financial domain
 
 | File | Description | Time | Dataset |
@@ -77,13 +77,13 @@ This repository provides a comprehensive learning path for Apache Arrow, from ba
 
 ### 🔴 Advanced Level
 
-#### [cross_language/](cross_language/)
+#### [5_cross_language/](5_cross_language/)
 **Multiple READMEs** for cross-language data sharing
 
 **Documentation**:
-- [README.md](cross_language/README.md) - Cross-language guide
-- [SETUP.md](cross_language/SETUP.md) - Detailed setup instructions
-- [SPRING_BOOT_GUIDE.md](cross_language/SPRING_BOOT_GUIDE.md) - Spring Boot integration
+- [README.md](5_cross_language/README.md) - Cross-language guide
+- [SETUP.md](5_cross_language/SETUP.md) - Detailed setup instructions
+- [SPRING_BOOT_GUIDE.md](5_cross_language/SPRING_BOOT_GUIDE.md) - Spring Boot integration
 
 **Components**:
 | Component | Language | Version | Description |
@@ -96,26 +96,26 @@ This repository provides a comprehensive learning path for Apache Arrow, from ba
 ## 🎯 Learning Path
 
 ### Step 1: Fundamentals (30-60 min)
-1. Start with `fundamentals/arrow_array.py`
+1. Start with `1_fundamentals/arrow_array.py`
 2. Progress through all fundamentals examples
 3. Understand basic Arrow concepts
 
 ### Step 2: Basic Analytics (15-30 min)
-1. Try `basic_analytics/basic_analytics.py`
+1. Try `2_basic_analytics/basic_analytics.py`
 2. Learn Arrow compute functions
 
 ### Step 3: Real-World Examples (45-90 min)
-1. Explore `arrow_in_action/` examples
+1. Explore `3_arrow_in_action/` examples
 2. Work with large datasets
 3. Learn Feather file I/O
 
 ### Step 4: Domain Examples (60-120 min)
-1. Study `financial_analysis/` examples
+1. Study `4_financial_analysis/` examples
 2. Understand complex analytics
 3. See real-world use cases
 
 ### Step 5: Cross-Language (90-180 min)
-1. Set up `cross_language/` environment
+1. Set up `5_cross_language/` environment
 2. Generate data with Python
 3. Consume in Python, Node.js, and Java
 4. Understand zero-copy data sharing
@@ -172,7 +172,7 @@ feather.write_feather(table, 'data.feather', compression='uncompressed')
 
 2. **Start with fundamentals**:
    ```bash
-   cd fundamentals
+   cd 1_fundamentals
    python3 arrow_array.py
    ```
 
